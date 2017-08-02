@@ -9,13 +9,13 @@
 ## Перед установкой плагина
 
 1. Создадим главную страницу(если не создана)
-1.1. Переходим в `Site`
-1.2. Заполняем Page name - `index`
-1.3. Нажимаем `Save`
+- Переходим в `Site`
+- Заполняем Page name - `index`
+- Нажимаем `Save`
 2. Добавим хотя бы один товар в магазин(если нет товаров)
-2.1. Переходим в `Store` > `Products` > `New product`
-2.2. Заполняем Product name, Price
-2.3. Нажимаем `Save`
+- Переходим в `Store` > `Products` > `New product`
+- Заполняем Product name, Price
+- Нажимаем `Save`
 
 ## Установка
 
@@ -24,9 +24,9 @@
 3. Заполняем ID Мерчанта, Secret Мерчанта
 4. Нажимаем `Save`
 5. Cоздаём страницу, которая будет служить страницей, на которую будет ссылаться пользователь после проплаты(если не создана)
-5.1. Переходим в `Site`
-5.2. Заполняем Page name - `result`, Page URL - **protocol://domain:port/result**
-5.3. Нажимаем `Save`
+- Переходим в `Site`
+- Заполняем Page name - `result`, Page URL - **protocol://domain:port/result**
+- Нажимаем `Save`
 6. В системе MandarinPay указываем
 - callbackURL **protocol://domain:port/payment-mandarin.php**
 - returnURL **protocol://domain:port/result**
